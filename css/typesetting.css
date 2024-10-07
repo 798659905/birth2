@@ -1,0 +1,21 @@
+#center{
+        width: 1000px;
+        height: 1200px;
+        background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%); 
+        margin: 0 auto;
+}
+
+p {
+    color: black;
+    font-size: larger;
+    text-indent: 2em; /* 设置缩进距离为2个字母的宽度 */
+  }
+
+.alignright {
+    display: inline;
+    float: right;
+}
+
+b{
+    font-size: xx-large;
+}
