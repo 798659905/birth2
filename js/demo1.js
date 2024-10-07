@@ -1,7 +1,7 @@
 let audio = null
 // 在文档加载时预加载音频
 document.addEventListener("DOMContentLoaded", () => {
-  audio = new Audio("/audio/1.flac")
+  audio = new Audio("/audio/1.mp3")
   audio.preload = "auto"
 })
 const playPauseButton = document.getElementById('playPauseButton');
